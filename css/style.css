@@ -15,7 +15,15 @@
   overflow: hidden; /* Hide the overflowing parts of the SVG */
   position: relative;
 }
-
+@media screen and (max-width: 364px) {
+  .col-md-8.col-md-offset-2.text-center.fh5co-heading h2 {
+    font-size: 30px; /* Zmniejsz rozmiar czcionki nagłówka */
+  }
+  .col-md-8.col-md-offset-2.text-center.fh5co-heading p {
+    font-size: 14px; /* Zmniejsz rozmiar czcionki paragrafu */
+    margin: 10px 5px; /* Zmniejsz margines */
+  }
+}
 .prezent-container {
   display: flex;
   justify-content: center;
